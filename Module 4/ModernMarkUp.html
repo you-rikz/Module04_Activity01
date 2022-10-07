@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern MarkUp</title>
+    
+    
+</head>
+<body>
+    <script type="text/JavaScript">
+        alert('This is Modern Markup!');
+    </script> 
+    <h1>Basic Positions In Volleyball</h1>
+
+    <div id="vbPOS">
+        "Outside Hitter"
+        "Opposite Hitter"
+        "Middle Blocker"
+        "Setter"
+        "Libero"
+    </div> 
+    <input type="button" value="View the Basic Positions in Volleyball" onclick="pos()">
+    <script type="text/JavaScript">
+        function pos(){
+            var x = document.getElementById("vbPOS");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+    </script>
+</body>
+</html>
